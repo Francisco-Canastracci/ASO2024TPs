@@ -1,5 +1,12 @@
+1-A)El tiempo de ejecucion de sinhilos.py es en promedio 5segundos, mientras que con hilos.py me dio un promedio de 4segundos.Ya que al tener "hilos" permite la ejecucion en paralelo de las tareas.
+
+1-B)La comparacion con mis compañeros dio casi los mismos resultados, 5 segundos para sinhilos.py y 4 segundos para conhilos.py
+
+1-C)
+
+
 2-A)
-```
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -52,5 +59,5 @@ int main(int argc, char *argv[])
 	}
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
-```
+
 2B)![](https://github.com/Francisco-Canastracci/ASO2024TPs/blob/main/TP3/comensales.jpeg)
