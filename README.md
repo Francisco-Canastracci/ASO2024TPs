@@ -6,7 +6,7 @@
 
 
 2-A)
-
+```
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,5 +59,5 @@ int main(int argc, char *argv[])
 	}
 	pthread_exit(NULL); // como los hilos que cree ya terminaron de ejecutarse, termino yo tambien.
 }
-
+```
 2B)![](https://github.com/Francisco-Canastracci/ASO2024TPs/blob/main/TP3/comensales.jpeg)
